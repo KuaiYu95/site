@@ -1,0 +1,132 @@
+.my-home {
+
+  .article-list {
+    width: 70%;
+    padding: 6px;
+    height: 100%;
+    overflow: scroll;
+  
+    .visit-list {
+      font-size: 12px;
+      box-shadow: 0 0 4px #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 16px;
+      min-height: 38px;
+      overflow: hidden;
+  
+      span {
+        color: #aaa;
+      }
+      
+      .int {
+        display: inline-block;
+        width: 10px;
+      }
+    }
+  
+    .saohua {
+      transition: 0.5s;
+      font-size: 12px;
+      color: #eee;
+      font-family: 'cursive';
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .saohua:hover {
+      transition: 0.5s;
+      font-size: 18px;
+      color: #3E87E3;
+    }
+  
+    .list {
+      transition: 0.5s;
+      box-shadow: 0 0 4px #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 10px;
+      margin-bottom: 16px;
+  
+      .list-item {
+        float: left;
+        width: 50%;
+        margin: 0;
+  
+        a {
+          color: #999;
+          display: inline-block;
+          max-width: 435px;
+          vertical-align: middle;
+        }
+  
+        a:hover {
+          color: #333;
+        }
+      }
+    }
+  
+    .list:hover {
+      transition: 0.5s;
+      box-shadow: 0 0 4px #3E87E3;
+    }
+  }
+  
+  .side-bar {
+    position: fixed;
+    right: 38px;
+    top: 110px;
+    z-index: 2;
+    width: 23%;
+    height: 600px;
+  
+    .search {
+      transition: 0.5s;
+      box-shadow: 0 0 4px #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 38px;
+      line-height: 38px;
+  
+      .ant-input, .ant-input:focus, .ant-input:hover {
+        border: none;
+        box-shadow: none;
+      }
+    }
+
+    .search:hover {
+      transition: 0.5s;
+      box-shadow: 0 0 4px #3E87E3;
+    }
+  
+    .personal {
+      transition: 0.5s;
+      box-shadow: 0 0 4px #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 16px;
+  
+      .ant-descriptions-title {
+        margin-bottom: 5px;
+      }
+  
+      .avatar-user {
+        display: flex;
+        align-items: center;
+  
+        .username {
+          margin-left: 10px;
+        }
+      }
+    }
+  
+    .statistics {
+      transition: 0.5s;
+      box-shadow: 0 0 4px #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 16px;
+      text-align: center;
+    }
+  }
+}
